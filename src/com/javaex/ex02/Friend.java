@@ -39,11 +39,6 @@ public class Friend {
    	}
    	
        //메소드 일반
-   	@Override
-   	public String toString() {
-   		return "Friend [name=" + name + ", hp=" + hp + ", school=" + school + "]";
-   	}
-
    	public void showInfo() {
    		System.out.println("이름:"+name+ " 핸드폰:" +hp+ " 학교: "+school);
    	}
